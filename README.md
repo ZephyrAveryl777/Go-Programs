@@ -2,7 +2,7 @@
 A collection of go programs that could be used as a reference and a practise set to learn to have a deeper connection with the language 
 
 **A temporary Index** 
-- will sort and edit it properly later ... as of now a reference of what to be done 
+- will sort, edit and add few more programs later ... as of now a reference of what to be done 
 ### 1. Simple Go Questions
 
 * Area and Circumference of a Circle
