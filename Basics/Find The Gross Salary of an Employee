@@ -1,0 +1,20 @@
+/* 
+Gross Salary = Basic+ DA + HRA + MA
+Deduction = Gross Salary-Pf-Pt-It
+Net Salary = Gross Salary - Deduction
+*/
+package main
+import "fmt"
+func main(){
+var GrossSalary,basic,DA,HRA float64
+fmt.Printf("Enter basic salary:\t")
+fmt.Scanf("%f",&basic)
+fmt.Printf("Enter DA:\t")
+fmt.Scanf("%f",&DA)
+fmt.Printf("Enter HRA:\t")
+fmt.Scanf("%f",&HRA)
+DA = (DA*basic)/100
+HRA = (HRA*basic)/100
+GrossSalary = basic+DA+HRA
+fmt.Printf("\nGrossSalary:%f\n",GrossSalary)
+}
