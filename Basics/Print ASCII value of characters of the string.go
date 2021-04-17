@@ -30,3 +30,16 @@ func main(){
 		fmt.Println(n)
 	}
 }
+
+// Method 3
+package main
+import "fmt"
+
+func main() {
+    var val byte 
+    fmt.Print("Enter the character: ")
+    fmt.Scanf("%c",&val)
+    fmt.Printf("\nCharacter value: %c",val) 
+    fmt.Printf("\nASCII value: %d",val) 
+}
+
