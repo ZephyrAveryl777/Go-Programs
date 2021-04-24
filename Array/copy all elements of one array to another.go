@@ -3,8 +3,7 @@ package main
 import "fmt"
 
 func main() {
-  var b int
-  var a=4
+  var b,a int
   var s,l []int
   //getting size of the array
   fmt.Println("Enter the length of the array")
