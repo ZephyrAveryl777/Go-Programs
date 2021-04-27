@@ -6,35 +6,36 @@ For example, the number 21 with its proper divisors (1, 3 and 7) has sum (11) le
 // if possible try making the code short and better 
 package main
 import (
-    "fmt"
     "math"
-)
-func  divsum(n int)int{
-    var i int
-    var sum int = 0
-    var c int = int(math.Sqrt(int(n))) // type errors 
-    for i:=1;i<=c;i++{
-        if(n%i == 0){
-            if((n/i)==i){
+    "fmt"
+    )
+
+func divsum(n int)int{
+    var sum int = 0 
+    var i int = 1 
+    for i<=int(math.Sqrt(float64(n))){
+        if(n%i ==0){
+            if(n/i == i){
                 sum = sum+i
             }else{
-                sum = sum+i
                 sum = sum+(n/i)
             }
         }
+        i = i+1
     }
     return sum
 }
-func isDef(n int) int{
-    return (divsum(n)<(2*n)) // type error 
+
+func isDef(n int)bool{
+    return (divsum(n) < (2*n))
 }
 func main(){
-    var n int
-    fmt.Print("Enter a number: ")
+    var n int 
+    fmt.Print("Enter number: ")
     fmt.Scanf("%d",&n)
-    if(isDef(n)==0){
-        fmt.Print("Number is  deficient.")
+    if(isDef(n)){
+        fmt.Print("Number is Deficient")
     }else{
-        fmt.Print("Number is not deficient")
+        fmt.Print("Number is not Deficient")
     }
 }
