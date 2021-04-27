@@ -18,7 +18,7 @@ func main() {
   fmt.Print("Enter number of rows: ")
   fmt.Scanf("%d",&r)
   fmt.Print("Enter number of columns: ")
-  fmt.Scan("%d",&c)
+  fmt.Scanf("%d",&c)
   for i=0;i<r;i++{
     for j=1;j<=c;j++{
       fmt.Print(j)
