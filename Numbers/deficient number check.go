@@ -1,3 +1,4 @@
+// if possible try making the code short and better 
 package main
 import (
     "fmt"
