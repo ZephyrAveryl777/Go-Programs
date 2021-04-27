@@ -20,7 +20,7 @@ func  divsum(n int)int{
     return sum
 }
 func isDef(n int) int{
-    return (divsum(n)<(2*n))
+    return (divsum(n)<(2*n)) // type error 
 }
 func main(){
     var n int
