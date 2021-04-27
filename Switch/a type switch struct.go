@@ -7,7 +7,7 @@ func main() {
   ID   int  
   Name string  
  }  
- emp := Employee{1, "Kiran"}  
+ emp := Employee{1, "A"}  
  var empInterface interface{}  
  empInterface = emp  
  switch empInterface.(type) {  
