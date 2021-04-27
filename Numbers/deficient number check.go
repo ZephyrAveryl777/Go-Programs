@@ -6,7 +6,7 @@ import (
 func  divsum(n int)int{
     var i int
     var sum int = 0
-    var c int = int(math.Sqrt(int(n)))
+    var c int = int(math.Sqrt(int(n))) // type errors 
     for i:=1;i<=c;i++{
         if(n%i == 0){
             if((n/i)==i){
