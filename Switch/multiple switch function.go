@@ -4,6 +4,7 @@ import (
     "time"
 )
 func main() {
+    // basic switch 
     i := 2
     fmt.Print("Write ", i, " as ")
     switch i {
@@ -14,14 +15,15 @@ func main() {
     case 3:
         fmt.Println("three")
     }
-  
+    
+    // switch with multiple expressions 
     switch time.Now().Weekday() {
     case time.Saturday, time.Sunday:
         fmt.Println("It's the weekend")
-    default:
+    default: // optional default statement 
         fmt.Println("It's a weekday")
     }
-  
+    // switch with no expressions 
     t := time.Now()
     switch {
     case t.Hour() < 12:
@@ -29,7 +31,7 @@ func main() {
     default:
         fmt.Println("It's after noon")
     }
-  
+    // type switch
     whatAmI := func(i interface{}) {
         switch t := i.(type) {
         case bool:
