@@ -37,3 +37,30 @@ func main(){
     res = num1 & num2 
     fmt.Printf("First number is: %d\nBinay of First Number %d is: %b\nSecond Number is: %d\nBinary of Second Number is: %b\nResult of bitwise and between %d and %d is: %d\nBinary of the result is:%b\n",num1,num1,num1,num2,num2,num1,num2,res,res)
 }
+
+// BINARY OR
+package main
+import "fmt"
+func main(){
+    var num1,num2,res int 
+    fmt.Printf("Enter number1: ")
+    fmt.Scanf("%d",&num1)
+    fmt.Printf("Enter number2: ")
+    fmt.Scanf("%d",&num2)
+    res = num1 | num2 
+    fmt.Printf("First number is: %d\nBinay of First Number %d is: %b\nSecond Number is: %d\nBinary of Second Number is: %b\nResult of bitwise and between %d and %d is: %d\nBinary of the result is:%b\n",num1,num1,num1,num2,num2,num1,num2,res,res)
+}
+
+// BINARY XOR
+package main
+import "fmt"
+func main(){
+    var num1,num2,res int 
+    fmt.Printf("Enter number1: ")
+    fmt.Scanf("%d",&num1)
+    fmt.Printf("Enter number2: ")
+    fmt.Scanf("%d",&num2)
+    res = num1 ^ num2 
+    fmt.Printf("First number is: %d\nBinay of First Number %d is: %b\nSecond Number is: %d\nBinary of Second Number is: %b\nResult of bitwise and between %d and %d is: %d\nBinary of the result is:%b\n",num1,num1,num1,num2,num2,num1,num2,res,res)
+}
+
