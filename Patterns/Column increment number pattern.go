@@ -10,10 +10,13 @@ Enter number of columns: 5
 */
 package main
 
-import "fmt"
+import (
+    "fmt"
+    "strings"
+    )
 
 func main() {
-  fmt.Println("Column increment number pattern")
+  fmt.Println(strings.Repeat("_",10)+" Column increment number pattern "+strings.Repeat("_",10))
   var r,c,i,j int
   fmt.Print("Enter number of rows: ")
   fmt.Scanf("%d",&r)
