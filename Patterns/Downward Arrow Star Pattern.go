@@ -19,7 +19,7 @@ import (
     )
 
 func main() {
-  fmt.Println(strings.Repeat("_",10)+" Decremental sequence number pattern rowise to left "+strings.Repeat("_",10))
+  fmt.Println(strings.Repeat("_",10)+" Downward Arrow Star Pattern "+strings.Repeat("_",10))
   var r,i,j,t int
   fmt.Print("Enter number of rows: ")
   fmt.Scanf("%d",&r)
