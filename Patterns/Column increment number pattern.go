@@ -15,10 +15,10 @@ import "fmt"
 func main() {
   fmt.Println("Column increment number pattern")
   var r,c,i,j int
-  fmt.Println("Enter number of rows")
-  fmt.Scan(&r)
-  fmt.Println("Enter number of columns")
-  fmt.Scan(&c)
+  fmt.Print("Enter number of rows: ")
+  fmt.Scanf("%d",&r)
+  fmt.Print("Enter number of columns: ")
+  fmt.Scan("%d",&c)
   for i=0;i<r;i++{
     for j=1;j<=c;j++{
       fmt.Print(j)
