@@ -51,3 +51,22 @@ func main() {
 
   fmt.Println("Reversed array is",l)
 }
+
+
+
+
+****************************************Method 3 ********************************************************
+//using sort package
+package main
+
+import (
+	"fmt"
+	"sort"
+)
+
+func main() {
+	l := []int{2, 4, 9, 1, 2, 7, 5}
+	sort.Sort(sort.Reverse(sort.IntSlice(l)))
+	fmt.Println(l)
+
+}
