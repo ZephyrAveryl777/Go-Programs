@@ -5,7 +5,7 @@ import (
 )
 var e,s,max int
 var r,l []int
-func evenpos(){
+func largest(){
   //through the array storing the maximum value and comparing it with upcoiming elements and finally printing the largest value strored in max
   for i:=0;i<s;i=i+1 {
     if max<l[i]{
@@ -22,5 +22,5 @@ for i:=0;i<s;i++{
   fmt.Scan(&e)
   l=append(l,e)
 }
-evenpos()
+largest()
 }
